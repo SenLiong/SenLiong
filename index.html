@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="id">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World App</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
+  <div class="container">
+    <div class="card">
+      <h1>Hello World! 👋</h1>
+      <p class="welcome-text">Selamat datang di aplikasi Hello World sederhana</p>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+      <div class="button-group">
+        <button id="btn-greet" class="btn btn-primary">Klik Saya</button>
+        <button id="btn-clear" class="btn btn-secondary">Reset</button>
+      </div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+      <div id="message" class="message"></div>
 
+      <div class="info">
+        <p>Ini adalah test aplikasi HTML sederhana yang bisa dibuka di browser</p>
+        <small>Dibuat dengan ❤️ menggunakan HTML, CSS, dan JavaScript</small>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
